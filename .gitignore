@@ -1,0 +1,18 @@
+/tmp/
+**.generated.override.yml
+/out/
+/artifacts/
+
+#Intellij
+.idea
+**/*.iml
+**/*.iws
+**/*.log
+
+#Maven
+**/target
+**/log
+
+# compilierte Programme
+**/*.war
+**/*.jar
