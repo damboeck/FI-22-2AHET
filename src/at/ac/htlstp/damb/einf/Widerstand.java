@@ -1,4 +1,4 @@
-package at.ac.htlstp.sj22k2a.einf;
+package at.ac.htlstp.damb.einf;
 
 /**
  * Entwickle ein Java-Programm, welches folgende Aufgabenstellung erfüllt:

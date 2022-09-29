@@ -1,4 +1,4 @@
-package at.ac.htlstp.sj22k2a.einf;
+package at.ac.htlstp.damb.einf;
 
 /**
  * Schreibe ein Programm in Java welches den Text "Hallo Welt!" auf dem Bildschirm ausgibt.
