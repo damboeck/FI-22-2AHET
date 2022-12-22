@@ -7,7 +7,7 @@ public class Dreieck1 {
             System.out.print("*");
         }
         System.out.println();
-        for (int z=4;z>0;z--) {
+        for (int z=size+1;z>0;z--) {
             for (int s=0;s<z;s++) {
                 if (s==z-1)
                     System.out.print("/");
@@ -22,6 +22,9 @@ public class Dreieck1 {
 
 
     public static void main(String[] args) {
-        dreieck(3);
+        for (int i=0;i<11;i++) {
+            dreieck(i);
+            System.out.println("**********************************");
+        }
     }
 }
