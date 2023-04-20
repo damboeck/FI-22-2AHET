@@ -25,8 +25,13 @@ public class DateiUebung1 {
         }
 
         ArrayList<String> data1 = (ArrayList<String>)data;
-        data1.add(0,"Eine neue erste Zeile!");
-        data1.add("neue letzte Zeile");
+        for (int i=1;i<data1.size();i++) {
+            if (data1.get(i-1).length()>0 && data1.get(i).length()>0)
+                data1.add(i,"");
+        }
+
+        //data1.add(0,"Eine neue erste Zeile!");
+        //data1.add("neue letzte Zeile");
 
         File newfile = new File("data/test1.txt");
         Files.write(newfile.toPath(), data);
